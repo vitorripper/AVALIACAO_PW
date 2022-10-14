@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+    height: 8vh;
+    width: auto;
+}
+.titulo{
+    font: 'San Francisco', Helvetica, Arial, san-serif;
+    text-align: center;
+}
+label{
+    font: 'San Francisco', Helvetica, Arial, san-serif;
+    margin: left;
+}
+.estoque{
+    
+    background: #AFEEEE;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin:auto;
+    margin-top: 40px;
+    box-shadow: 3px 3px 10px black;
+    font: 'San Francisco', Helvetica, Arial, san-serif;
+}
+#botao{
+    padding: 5px 5px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4682B4;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 2px #999;
+    display: inline-block;
+    margin:center;
+}
+.valores{
+    line-height: 20px;
+    font:'San Francisco', Helvetica, Arial, san-serif;
+    
+}
+.copy{
+    text-align: center;
+    font-style: oblique;
+    margin-top: 20px;
+}
